@@ -1,0 +1,14 @@
+<form [formGroup]="signinForm" (ngSubmit)="loginUser()">
+  <h3 class="">Please sign in</h3>
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="Enter email" value=" " formControlName="email" required>
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Password</mat-label>
+    <input type="password" matInput placeholder="Password" value=" " formControlName="password" required>
+  </mat-form-field>
+  <br>
+  <button mat-stroked-button color="primary" type="submit">Sign in</button>
+</form>

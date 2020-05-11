@@ -25,4 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-"# grocery" 
+"# grocery"
+
+## How to run backend authentication server
+
+- Follow this repo [angular-meanstack-authentication](https://github.com/SinghDigamber/angular-meanstack-authentication)
+
+## To admin db you can use
+
+- Follow this repo [Mongoku](https://github.com/huggingface/Mongoku)
